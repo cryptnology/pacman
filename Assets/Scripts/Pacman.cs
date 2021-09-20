@@ -5,15 +5,20 @@ using UnityEngine;
 
 public class Pacman : MonoBehaviour
 {
+    //public AudioClip moving;
     public float speed = 4.0f;
+
     float timer = 0.0f;
     int currentIntTimer = 0;
 
     private Vector2 direction = Vector2.zero;
+    //private bool eating = false;
+
+    //private AudioSource audio;
 
     void Start()
     {
-
+        //audio = transform.GetComponent<AudioSource>();
     }
 
     void Update()
@@ -49,7 +54,14 @@ public class Pacman : MonoBehaviour
 
         Move();
         CheckOrientation();
+        //PlayMovingSound();
+
     }
+
+    //void PlayMovingSound()
+    //{
+    //    audio.Play(moving);
+    //}
 
     //void CheckInput()
     //{
