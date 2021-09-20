@@ -7568,6 +7568,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: super_pellet (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 110229820218757842, guid: 88b770aec650242cfbf3f6e43288bd56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2371571320519592064, guid: 88b770aec650242cfbf3f6e43288bd56, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5383049135823260064, guid: 88b770aec650242cfbf3f6e43288bd56, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -31706,6 +31714,43 @@ Transform:
   m_Father: {fileID: 404288392}
   m_RootOrder: 125
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1598853996 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4010959879654613889, guid: 3dfccc9ee409441e98e33a95c5492741, type: 3}
+  m_PrefabInstance: {fileID: 9223332906276956266}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1598853997
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598853996}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: cab81511dba5940c98c73036c0c16fc1, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1598854000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598853996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd6bc41162b594c3bbfe280cdcecc17a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 4
 --- !u!1 &1613195967
 GameObject:
   m_ObjectHideFlags: 0
