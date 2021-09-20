@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,8 @@ using UnityEngine;
 public class Pacman : MonoBehaviour
 {
     public float speed = 4.0f;
+    float timer = 0.0f;
+    int currentIntTimer = 0;
 
     private Vector2 direction = Vector2.zero;
 
@@ -15,33 +18,61 @@ public class Pacman : MonoBehaviour
 
     void Update()
     {
-        CheckInput();
+        //CheckInput();
+
+        timer += Time.deltaTime;
+        currentIntTimer = (int)timer;
+
+
+        if (currentIntTimer > 0 && currentIntTimer < 2)
+        {
+            direction = Vector2.left;
+        }
+        if (currentIntTimer == 1)
+        {
+            direction = Vector2.up;
+        }
+        if (currentIntTimer == 2)
+        {
+            direction = Vector2.right;
+
+        }
+        if (currentIntTimer == 3)
+        {
+            direction = Vector2.down;
+        }
+        if (currentIntTimer == 4)
+        {
+            direction = Vector2.left;
+            timer = 0;
+        }
+
         Move();
         CheckOrientation();
     }
 
-    void CheckInput()
-    {
-        if (Input.GetKeyDown(KeyCode.UpArrow))
-        {
-            direction = Vector2.up;
+    //void CheckInput()
+    //{
+    //    if (Input.GetKeyDown(KeyCode.UpArrow))
+    //    {
+    //        direction = Vector2.up;
 
-        }
-        else if (Input.GetKeyDown(KeyCode.DownArrow))
-        {
-            direction = Vector2.down;
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.DownArrow))
+    //    {
+    //        direction = Vector2.down;
 
-        }
-        else if (Input.GetKeyDown(KeyCode.LeftArrow))
-        {
-            direction = Vector2.left;
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.LeftArrow))
+    //    {
+    //        direction = Vector2.left;
 
-        }
-        else if (Input.GetKeyDown(KeyCode.RightArrow))
-        {
-            direction = Vector2.right;
-        }
-    }
+    //    }
+    //    else if (Input.GetKeyDown(KeyCode.RightArrow))
+    //    {
+    //        direction = Vector2.right;
+    //    }
+    //}
 
     void Move()
     {
