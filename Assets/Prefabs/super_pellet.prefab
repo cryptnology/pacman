@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5383049135823260064}
   - component: {fileID: 2371571320519592064}
+  - component: {fileID: -1330826318652610073}
   m_Layer: 0
   m_Name: super_pellet
   m_TagString: Untagged
@@ -82,3 +83,15 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-1330826318652610073
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110229820218757842}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db5061751f7f49f79bb94f77229d299, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
