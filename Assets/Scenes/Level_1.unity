@@ -640,6 +640,10 @@ MonoBehaviour:
   virusRight: {fileID: 9100000, guid: 17bc5cc75145940a19b3103a6d43022d, type: 2}
   virusBlue: {fileID: 9100000, guid: 8671b9b5b7c764288a01d1c0fc19d858, type: 2}
   virusWhite: {fileID: 9100000, guid: 96b84514061504a99ada0c930820194a, type: 2}
+  deadUp: {fileID: 9100000, guid: d610fcb4383b74b44975f2cc732653c0, type: 2}
+  deadDown: {fileID: 9100000, guid: e36649f3640de43e0bbab099035b326d, type: 2}
+  deadLeft: {fileID: 9100000, guid: 6495618c19f354147802b27f1198265a, type: 2}
+  deadRight: {fileID: 9100000, guid: a5969f654394a43efadcd1a9c3a7c751, type: 2}
 --- !u!95 &29532301
 Animator:
   serializedVersion: 3
@@ -19475,6 +19479,10 @@ MonoBehaviour:
   virusRight: {fileID: 9100000, guid: 80fc2a981e81d4ebdb900372ec2bfb50, type: 2}
   virusBlue: {fileID: 9100000, guid: 8671b9b5b7c764288a01d1c0fc19d858, type: 2}
   virusWhite: {fileID: 9100000, guid: 96b84514061504a99ada0c930820194a, type: 2}
+  deadUp: {fileID: 9100000, guid: d610fcb4383b74b44975f2cc732653c0, type: 2}
+  deadDown: {fileID: 9100000, guid: e36649f3640de43e0bbab099035b326d, type: 2}
+  deadLeft: {fileID: 9100000, guid: 6495618c19f354147802b27f1198265a, type: 2}
+  deadRight: {fileID: 9100000, guid: a5969f654394a43efadcd1a9c3a7c751, type: 2}
 --- !u!95 &928430132
 Animator:
   serializedVersion: 3
@@ -25023,6 +25031,10 @@ MonoBehaviour:
   virusRight: {fileID: 9100000, guid: c9e433e84c87b436190bc037617feabc, type: 2}
   virusBlue: {fileID: 9100000, guid: 8671b9b5b7c764288a01d1c0fc19d858, type: 2}
   virusWhite: {fileID: 9100000, guid: 96b84514061504a99ada0c930820194a, type: 2}
+  deadUp: {fileID: 9100000, guid: d610fcb4383b74b44975f2cc732653c0, type: 2}
+  deadDown: {fileID: 9100000, guid: e36649f3640de43e0bbab099035b326d, type: 2}
+  deadLeft: {fileID: 9100000, guid: 6495618c19f354147802b27f1198265a, type: 2}
+  deadRight: {fileID: 9100000, guid: a5969f654394a43efadcd1a9c3a7c751, type: 2}
 --- !u!95 &1186832330
 Animator:
   serializedVersion: 3
@@ -26873,6 +26885,10 @@ MonoBehaviour:
   virusRight: {fileID: 9100000, guid: b27ebcf1c142e4bd2a6008e314085fdb, type: 2}
   virusBlue: {fileID: 9100000, guid: 8671b9b5b7c764288a01d1c0fc19d858, type: 2}
   virusWhite: {fileID: 9100000, guid: 96b84514061504a99ada0c930820194a, type: 2}
+  deadUp: {fileID: 9100000, guid: d610fcb4383b74b44975f2cc732653c0, type: 2}
+  deadDown: {fileID: 9100000, guid: e36649f3640de43e0bbab099035b326d, type: 2}
+  deadLeft: {fileID: 9100000, guid: 6495618c19f354147802b27f1198265a, type: 2}
+  deadRight: {fileID: 9100000, guid: a5969f654394a43efadcd1a9c3a7c751, type: 2}
 --- !u!95 &1328186805
 Animator:
   serializedVersion: 3
