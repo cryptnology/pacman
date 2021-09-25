@@ -13,6 +13,10 @@ public class Virus : MonoBehaviour
     public RuntimeAnimatorController virusRight;
     public RuntimeAnimatorController virusBlue;
     public RuntimeAnimatorController virusWhite;
+    public RuntimeAnimatorController deadUp;
+    public RuntimeAnimatorController deadDown;
+    public RuntimeAnimatorController deadLeft;
+    public RuntimeAnimatorController deadRight;
 
     void Start()
     {
@@ -67,6 +71,26 @@ public class Virus : MonoBehaviour
         if (currentIntTimer == 20)
         {
             transform.GetComponent<Animator>().runtimeAnimatorController = virusBlue;
+        }
+        if (currentIntTimer == 21)
+        {
+            transform.GetComponent<Animator>().runtimeAnimatorController = deadUp;
+        }
+        if (currentIntTimer == 24)
+        {
+            transform.GetComponent<Animator>().runtimeAnimatorController = deadDown;
+        }
+        if (currentIntTimer == 27)
+        {
+            transform.GetComponent<Animator>().runtimeAnimatorController = deadLeft;
+        }
+        if (currentIntTimer == 30)
+        {
+            transform.GetComponent<Animator>().runtimeAnimatorController = deadRight;
+            timer = 0;
+        }
+        if (currentIntTimer == 33)
+        {
             timer = 0;
         }
     }
